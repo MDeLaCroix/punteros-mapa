@@ -50,16 +50,40 @@ def run():
         page_icon="👋",
     )
 
-    st.title("Generador de Mapa con Folium")
+    st.title("Generador de punteros en México")
 
     st.markdown(
         """
-        Sube un archivo Excel con las columnas:
-        - Nombre,
-        - Latitud,
-        - Longitud,
-        - Color,
-        - Símbolo.
+        Esta aplicación permite generar archivos HTML descargable con puntos en un mapa.
+        """
+    )
+
+    st.markdown(
+        """
+        Para que esta aplicación pueda funcionar se deberá subir un archivo de Excel (`xlsx`) de una sola hoja que contenga cuatro\
+            columnas y se deberá respetar los encabezados que quí se indican,:
+        - `Nombre`, con el cual aparecerá en el mapa.
+        - `Latitud`, deberá ser en ser en formato decimal, preferentemnete con precisión de seis decimales.
+        - `Longitud`, deberá ser en formato decimal, preferentemnete con precisión de seis decimales.
+        - `Color`, esté deberá ser indicado en inglés y sólo permite los siguientes valores como se escriben a continuación:
+            - `red`,
+            - `blue`,
+            - `gray`,
+            - `darkred`,
+            - `lightred`,
+            - `orange`,
+            - `beige`,
+            - `green`,
+            - `darkgreen`,
+            - `lightgreen`,
+            - `darkblue`,
+            - `lightblue`,
+            - `purple`,
+            - `darkpurple`,
+            - `pink`,
+            - `cadetblue`,
+            - `lightgray`,
+            - `black`
         """
     )
 
