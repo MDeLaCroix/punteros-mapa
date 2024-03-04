@@ -54,6 +54,7 @@ def run():
 
     st.markdown(
         """
+        _por Marco A. de la Cruz._
         Esta aplicación permite generar archivos HTML descargable con puntos en un mapa.
         """
     )
