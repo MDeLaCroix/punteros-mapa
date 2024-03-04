@@ -46,8 +46,8 @@ def download_link(mapa):
 
 def run():
     st.set_page_config(
-        page_title="Main",
-        page_icon="👋",
+        page_title="Generador de punteros",
+        page_icon="🗺️",
     )
 
     st.title("Generador de punteros en México")
