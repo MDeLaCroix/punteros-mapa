@@ -1,7 +1,21 @@
-# Welcome to streamlit
+# Proyecto de generación de punteros en México.
 
-This is the app you get when you run `streamlit hello`, extracted as its own app.
+Este proyecto puede ser descargado en una máquina local y puede ser ejecutado con alguno de estos comandos desde terminal:
 
-Edit [Hello.py](./Hello.py) to customize this app to your heart's desire. ❤️
+```bash
+streamlit run main.py
+```
 
-Check it out on [Streamlit Community Cloud](https://st-hello-app.streamlit.app/)
+también podría funcionar:
+
+```bash
+py -m streamlit run main.py
+```
+
+El proyecto también se encuentra en la siguiente página:
+
+https://punteros-mapa-mdelacroix.streamlit.app/
+
+El proyecto actualmente está en proceso de mejora y se incluirán:
+- Lista de logos a mostrar.
+- Posibilidad de generar varios mapas con un sólo archivo.
